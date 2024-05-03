@@ -21,7 +21,7 @@ This repository contains R codes for the replication study of Bucheli et al. (20
 
 8. **full_project_extended_m_level.R:** Performs insurance calibration (with restricted cubic splines) and evaluation (with expected utility model) using extended replication data.
    
-# Data Sources
+## Data Sources
 
 ## 1. Phenology Data
 - **Source:** Møller, Markus (2020). ”Data for: PhenoWin - A R Shiny application for visualization and extraction of phenological windows in Germany.” Mendeley Data, V1. DOI: [10.17632/37jxk3n9fy](https://doi.org/10.17632/37jxk3n9fy)
@@ -45,7 +45,7 @@ This repository contains R codes for the replication study of Bucheli et al. (20
 
 
 
-# Usage:
+## Usage:
 
 To replicate the analysis conducted in the study, clone or download this repository and execute the R scripts in a suitable environment.
 1. **data_deduplicating_masud.R:** Run the script to clean the data by 
