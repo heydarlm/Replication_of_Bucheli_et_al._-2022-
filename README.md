@@ -29,7 +29,7 @@ This repository contains R codes for the replication study of Bucheli et al. (20
 
 ## A.1.2 Temperature Data
 - **Source:** Cornes, R., G. van der Schrier, E.J.M. van den Besselaar, and P.D. Jones (2018). ”An Ensemble Version of the E-OBS Temperature and Precipitation Datasets.” J. Geophys. Res. Atmos., 123. DOI: [10.1029/2017JD02820](https://doi.org/10.1029/2017JD02820)
-- **Availability:** The temperature data utilized in this study is accessible through the Copernicus Climate Change Service (C3S) website. Interested parties can access the data files via the provided link.
+- **Availability:** The temperature data utilized in this study is accessible through the Copernicus Climate Change Service (C3S) website. Interested parties can access the data files via the provided DOI link.
 
 ## A.1.3 Municipality Locations Data
 - **Source:** German Federal Agency for Cartography and Geodesy (BKG)
