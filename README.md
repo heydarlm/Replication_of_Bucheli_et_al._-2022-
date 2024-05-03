@@ -23,19 +23,19 @@ This repository contains R codes for the replication study of Bucheli et al. (20
    
 # Data Sources
 
-## A.1.1 Phenology Data
+## 1 Phenology Data
 - **Source:** Møller, Markus (2020). ”Data for: PhenoWin - A R Shiny application for visualization and extraction of phenological windows in Germany.” Mendeley Data, V1. DOI: [10.17632/37jxk3n9fy](https://doi.org/10.17632/37jxk3n9fy)
 - **Availability:** The phenology data used in this study is publicly available on the Mendeley Data repository. Researchers can access and download the dataset using the provided DOI link.
 
-## A.1.2 Temperature Data
+## 2 Temperature Data
 - **Source:** Cornes, R., G. van der Schrier, E.J.M. van den Besselaar, and P.D. Jones (2018). ”An Ensemble Version of the E-OBS Temperature and Precipitation Datasets.” J. Geophys. Res. Atmos., 123. DOI: [10.1029/2017JD02820](https://doi.org/10.1029/2017JD02820)
 - **Availability:** The temperature data utilized in this study is accessible through the Copernicus Climate Change Service (C3S) website. Interested parties can access the data files via the provided DOI link.
 
-## A.1.3 Municipality Locations Data
+## 3 Municipality Locations Data
 - **Source:** German Federal Agency for Cartography and Geodesy (BKG)
 - **Availability:** Municipality locations data at a scale of 1:5,000,000, as of December 31, is available on the BKG website. The data can be accessed [here](https://gdz.bkg.bund.de/index.php/default/digitale-geodaten/verwaltungsgebiete/verwaltungsgebiete-1-5-000-000-stand-31-12-vg5000-12-31.html).
 
-## A.1.4 Yield Data
+## 4 Yield Data
 ### Direct replication data:
 - **Source:** Confidential data collected by the insurance company ”gvf VersicherungsMakler AG.”
 - **Availability:** Due to data confidentiality, the yield data used in this study is not publicly available. Access to the data may be restricted, and interested parties should contact ”gvf VersicherungsMakler AG” for further information.
