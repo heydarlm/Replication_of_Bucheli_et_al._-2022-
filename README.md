@@ -48,8 +48,13 @@ This repository contains R codes for the replication study of Bucheli et al. (20
 ## Usage:
 
 To replicate the analysis conducted in the study, clone or download this repository and execute the R scripts in a suitable environment.
-1. **data_deduplicating_masud.R:** Run the script to clean the data by 
+1. **data_deduplicating_masud.R:** Execute the script to preprocess the original yield data obtained from "gvf VersicherungsMakler AG" for direct replication, resulting in the creation of the "dt_final.csv" file.
 
-2. **data_deduplicating_masud.R:** This script implements the data cleaning procedure for the direct replication yield data.
+2. **full_project_direct_f_level.R:** Utilize the "dt_final.csv" file to generate outcomes for direct replication in this script. Executing this script entails performing various calculations, and the duration may vary depending on the computational capabilities of your device.
 
-3. **data_1_plot.R:** Generates plots for the direct replication data at the farm level.
+3. **data_1_plot.R:** Run this script to generate plots for the direct replication data at the farm level.
+4. **ags_merging_masud.R:** Execute the script using the "dt_final.csv" file and the Municipality Location data acquired from the German Federal Agency for Cartography and Geodesy (BKG) to convert coordinates from farm locations to municipality centroids and it will result in the creation of the "dt_final_d2.csv" file.
+5. **full_project_direct_m_level.R:** Utilize the "dt_final_d2.csv" file to generate outcomes for direct replication in this script. Executing this script entails performing various calculations, and the duration may vary depending on the computational capabilities of your device.
+6. **data_2_plot.R:** Run this script to generate plots for the direct replication data at the municipality level.
+7. **full_project_extended_m_level.R:** Executing this script will preprocess yield data for extended replication collected from the Financial Accountancy Data Network (FADN) of the Free State of Saxony and it will perform various calculations, and the duration may vary depending on the computational capabilities of your device.
+8. **data_3_plot.R:** Run this script to generate plots for the extended replication data.
